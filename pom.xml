@@ -10,7 +10,7 @@
 	<name>hms-domain</name>
 	<url>http://maven.apache.org</url>
 
-	<description>Root Project</description>
+	<description>Root Project - B</description>
 	
 	<repositories>
 		<repository>
