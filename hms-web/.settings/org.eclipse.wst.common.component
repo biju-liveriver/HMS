@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="hms-web">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="hms-dao-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hms-dao/hms-dao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hms-domain-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hms-domain/hms-domain">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hms-framework-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hms-framework/hms-framework">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hms-services-admin-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hms-services-admin/hms-services-admin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hms-services-billing-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hms-services-billing/hms-services-billing">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hms-services-calendar-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hms-services-calendar/hms-services-calendar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hms-services-claims-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hms-services-claims/hms-services-claims">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hms-services-clinic-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hms-services-clinic/hms-services-clinic">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hms-services-document-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hms-services-document/hms-services-document">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hms-services-external-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hms-services-external/hms-services-external">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hms-services-patient-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hms-services-patient/hms-services-patient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hms-services-reporting-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hms-services-reporting/hms-services-reporting">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hms-services-system-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hms-services-system/hms-services-system">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hms-webservices-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/hms-webservices/hms-webservices">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="hms-web"/>
+        <property name="java-output-path" value="/hms-web/target/classes"/>
+    </wb-module>
+</project-modules>
