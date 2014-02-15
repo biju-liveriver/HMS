@@ -1,0 +1,24 @@
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:security="http://www.springframework.org/schema/security" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+	http://www.springframework.org/schema/security
+	http://www.springframework.org/schema/security/spring-security-3.2.xsd">	
+	
+	
+	<!-- Added below Roles and user for testing security for multitenancy. To be removed/modified accordingly later... -->
+	<http auto-config="true">
+		<intercept-url pattern="/tenant*" access="ROLE_USER"/>
+	</http>
+	
+	<authentication-manager>
+		<authentication-provider>
+			<user-service>
+				<user name="user" password="user" authorities="ROLE_USER"/>
+			</user-service>
+		</authentication-provider>
+	</authentication-manager>
+
+</beans:beans>
